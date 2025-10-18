@@ -204,6 +204,7 @@ libraries = {
 
 [node name="cup_only_new" parent="." instance=ExtResource("5_qlg0r")]
 transform = Transform3D(70, 0, 0, 0, 70.000015, 0, 0, 0, 70.000015, 1.0282726, 6.549341, -10.473848)
+visible = false
 
 [connection signal="animation_finished" from="JuiceAnimationPlayer" to="." method="_on_juice_animation_player_animation_finished"]
 
